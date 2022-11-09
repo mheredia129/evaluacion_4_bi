@@ -1,0 +1,275 @@
+
+body{
+  position:relative;
+  padding-bottom: 24px;
+  color: white;
+  background: url("../img/bg-pattern.png"), #7b4397;
+  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+ 
+  }
+
+
+.limpiar{
+	overflow: hidden;
+}
+.cabecera{
+	width: 50;
+	height: 80px;
+
+}
+
+.titulo{
+	font-family: century gothic;
+	font-size: 3.8rem;
+	color: rgb(206, 203, 203);
+	display: inline;
+	text-shadow: 2px 2px 2px black;
+	vertical-align: 2rem;
+}
+.usuario{
+	font-family: century gothic;
+	color: rgb(206, 203, 203);
+	font-size: px;
+	display: inline;
+	vertical-align: 2rem;
+}
+
+.formu_ingreso{
+	font-family: century gothic;
+	text-align: center;
+	padding: 50px 20px;
+	background-color: #161616a6;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+	
+}
+.estiloin{
+		font-family: century gothic;
+	text-align: center;
+	padding: 50px 20px;
+	background-color: #161616a6;
+	margin: calc(25% + 100px);
+	margin-top: 70px;
+	padding-top: 28px;
+	margin-bottom: 30px
+	
+}
+
+form{
+
+	box-shadow:7px 13px 37px ;
+	position: relative;
+	overflow: hidden;
+}
+form fieldset{
+	border: none;
+	padding: 2rem;
+}
+form::before{
+	content: '';
+	position: absolute;
+	justify-content: center;
+	height: 100%;
+	background: rgba(45 36 36 / 26%);
+	width: 6%;
+	box-shadow: 0px 0px 50rem;
+	transform: skew(20deg) translate(-280px);
+ animation: all 3s linear infinite;
+}
+.estil{
+	margin-top: -150px;
+}
+
+h1 {
+	font-family: century gothic;
+	text-align: center;
+	padding: 10px;
+	color: rgb(206, 203, 203)
+}
+h2{
+	font-size: 18px;
+	color: #000000;
+	font-family: Tahoma;
+}
+.v{
+
+	font-family: century gothic;
+	font-size: 40px;
+	color: #161616a6;
+	text-align: center;
+}
+
+.otro{
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	font-size: 16px
+}
+.botones{
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	font-size: 
+	}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	border: none;
+
+}
+.bt{
+	background-color: #48e;
+	color: #fff;
+	width:100px;
+	padding: 9px;
+	border: none;
+    margin-right: 100px;
+	
+}
+.tb{
+	background-color: #48e;
+	color: #fff;
+		width:100px;
+	padding: 9px;
+	border: none;
+
+
+	
+}
+
+
+#welcome{
+	text-align: center;
+	font-size: 10rem;
+
+	padding-top: 1%;
+	font-family: century gothic;
+	color: rgb(206, 203, 203);
+}
+
+#header{
+width:690px;
+margin: 0 auto;
+height: 190px;
+
+ 
+	
+}
+ul,ol{
+	list-style: none;
+
+}
+
+.nav > li {
+	float: left;
+/*padding-top: 100px;*/
+
+
+}
+.nav li a{
+	font-family: century gothic;
+color: rgb(206, 203, 203);
+	background-color:#161616a6;
+	text-decoration: none;
+	padding: 10px 12px;
+	display: block;
+}
+.nav li a:hover{
+	background-color: #9e81ff;
+}
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+}
+.nav li:hover > ul{
+	display: block;
+
+}
+.nav li ul li{
+	position: relative;
+}
+.nav li ul li ul {
+	right: -140px;
+	top: 0px;
+}
+
+
+
+a{
+
+	text-decoration: none;
+	color: #000000;
+	font-family: Times new Roman;
+	font-size: 12pt;
+	font-weight: bold;
+}
+a:hover{
+
+
+color: #fbff14d1;
+	text-decoration: underline;
+			font-family: century gothic;
+}
+
+.listado table{
+	width: auto;
+
+	border: 1px solid #000000;
+}
+.listado th {
+		font-family: century gothic;
+
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #161616a6;
+	border: 1px solid #000000;
+
+}
+.listado td {
+	background-color: #69979c66;
+	font-size: 14px;
+	border: 1px solid #000000;
+
+}
+
+.titulo_listado {
+	font-family: century gothic;
+	width: 400px;
+	height: 45px;
+	position: relative;
+	top: 15px;
+	left: 35%;
+
+}
+.titulo_nuevo {
+	position: relative;
+	top:120px;
+	left: 70%;
+
+}
+.titulo_nue {
+	position: relative;
+	top:112px;
+	left: 70%;
+
+}
+.titulo_nuev {
+	position: relative;
+	top:120px;
+	left: 75%;
+	width: 40%;
+	
+}
+
+input::placeholder { color:red;
+text-align: center; }
+input{
+	background-color: #e4b0ff;
+}

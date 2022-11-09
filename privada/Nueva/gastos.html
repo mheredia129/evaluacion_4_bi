@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORMULARIO 1</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/ingresos_economicos.css">
+	<script type="text/javascript" src="js/expresiones_regulares.js"></script>
+	<script type="text/javascript" src="js/gastos.js"></script>
+	<link rel="stylesheet" type="text/css" href="calendario/tcal.css">
+	<script type="text/javascript" src="calendario/tcal.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../css/new-age.css">
+
+</head>
+<body>
+	<header class="masthead">
+
+	<header>
+		<nav>
+			<ul id="menu">
+				<li><a href="index.html">Inicio</a></li>
+				<li>
+					<a href="#">HERRAMIENTAS</a>
+					<ul>
+						
+						
+
+					</ul>
+				</li>
+				<li>
+					<a href="#">PARAMETROS</a>
+					<ul>
+						<li><a href="inmuebles.html">TIPO DE INMUEBLE</a></li>
+						<li><a href="gastos.html">GASTOS</a></li>
+						<li><a href="tipo_de_gastos.html">TIPO DE <br> GASTOS</a></li>
+						<li><a href="ingresos_economicoss.html">INGRESOS <br> ECONOMICOS</a></li>
+						<li><a href="efectivo_disponible.html">EFECTIVO  <br> DISPONIBLE</a></li>
+						
+
+					</ul>
+
+				</li>
+				<li>
+					<a href="#">SISTEMA WEB</a>
+					<ul>
+						<li><a href="datos_domicilio.html">DOMICILIO</a></li>
+						<li><a href="datos_propietario.html">PROPIETARIO</a></li>
+						
+					</ul>
+
+				</li>		
+			
+		</nav>
+	</header>
+
+<section id="columna">
+	<div id="subtitulo1">
+		DETALLES  DE GASTOS DEL DOMICILIO
+	</div>
+	<form name="gastos" action="gastos.php" method="post">
+		
+		<input type="text" name="descripcion_del_gasto" placeholder="describa de  que es  el gasto" class="otro">
+		<input type="text" name="date" placeholder="fecha  del gasto"class="tcal" >
+		<input type="hidden" name="formulario" value=" datos de  gastos">
+	
+		<input type="button" name="boton" value="ENVIAR" class="boton" onclick="validar()" class="otro">
+		<input type="reset" name="boton"  value="CANCELAR" class="boton" class="otro" >
+		<p>
+			<h3> <font color="red">datos obligatorios (*)</font></h3>
+		</p>
+	</form>
+</section>
+</header>
+</body>
+</html>

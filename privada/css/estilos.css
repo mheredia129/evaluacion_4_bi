@@ -1,0 +1,59 @@
+{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image:url(C:\Users\le\Desktop\vali_proy_heredia_mejorado\fondo);
+	
+	
+}
+
+
+header {
+
+
+
+
+font-family: Helvetica;
+width:800px;
+margin: 0 auto;
+height: 150px;
+padding-top: 10px;
+
+
+}
+ul{
+	list-style: none;
+}
+
+#menu li>a{
+	background-color: grey;
+	color: white;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	min-width: 100px;
+}
+#menu li>a:hover{
+	color:#000;
+	background-color: #eaeaea;
+}
+#menu>li{
+	float: left;
+	text-align: center;
+}
+#menu>li>ul{
+	display: none;
+}
+#menu>li:hover>ul{
+	display: block;
+}
+#Inici{
+	font-family: Helvetica;	
+	padding-top: 10px;
+	font-size: 100px;
+	color: white;
+	margin-left:150px;
+	
+	
+}

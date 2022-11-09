@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../../css/colores.css">
+
+</head>
+<body>
+    <center>
+        <h2>{$mensaje}</h2>
+        <a href="ingresos_economicos.php">
+        <input type="button" name="volver" value="volver"></a>
+    </center>
+    
+    
+</body>
+</html>

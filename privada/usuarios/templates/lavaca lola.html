@@ -1,0 +1,80 @@
+function buscar_persona(persona_pk){
+var d1,contenedor,url;
+contenedor = document.getElementById('persona_seleccionada');
+contenedor2 = document.getElementById('personas');
+document.formu.persona_pk.value = persona_pk;
+
+d1 = persona_pk;
+
+ajax = nuevoAjax();
+url = "ajax_buscar_personas1.php"
+param = "persona_pk = "+ d1;
+ajax.open("POST", url, true);
+ajax.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+ajax.onreadystatechange = function(){
+    if (ajax.readyState == 4){
+        contenedor.innerHTML = ajax.responseText;
+        contenedor2 == "";
+    }
+}
+ajax.send(param);
+}
+
+
+
+
+
+
+function insertar_persona(){
+var d1,contenedor,url;
+contenedor = document.getElementById('persona_seleccionado');
+contenedor1 = document.getElementById('personas');
+contenedor2 = document.getElementById('persona_insertada');
+d1 = document.formu.paterno1.value;
+d2 =document.formu.materno1.value;
+d3 =document.formu.nombre1.value;
+d4 =document.formu.ci1.value;
+d5 =document.formu.direccion1.value;
+d6 =document.formu.telefono1.value;
+f = document.formu.genero[0].checked;
+m = document.formu.genero[1].checked;
+if (f== true)
+    d7="f";
+else if(m== true)
+d7="m";
+else
+d7=""
+if (d4=="") {
+    alert("el ci es incorrecto o el campo esta vacio");
+    document.formu.ci1.focus();
+    return;
+}
+if ((d1=="")&&(d2="")) {
+    alert("por favor introduzca el apellido");
+    document.formu.paterno1.focus();
+    return;
+}
+
+if (d3=="") {
+    alert("el nombre es incorrecto o el campo esta vacio");
+    document.formu.nombre1.focus();
+    return;
+}
+if (d7=="") {
+    alert("el genero esta vacio");
+    return;
+}
+ajax = nuevoAjax();
+url = "ajax_buscar_personas.php"
+param = "paterno1="+d1+"&materno1="+d2+"&nombre1="+d3+"&ci1="+d4+"&direccion1="+d5+"&telefono1="+d6+"&genero1="+d7;
+ajax.open("POST", url, true);
+ajax.setRequestHeader('Content-Type','application/x-www-form-urlencoded');
+ajax.onreadystatechange = function(){
+    if (ajax.readyState == 4){
+        contenedor.innerHTML = "";
+        contenedor1.innerHTML == "";
+        contenedor2.innerHTML == ajax.responseText;
+    }
+}
+ajax.send(param);
+}

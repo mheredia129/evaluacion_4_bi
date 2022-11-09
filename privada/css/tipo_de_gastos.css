@@ -1,0 +1,62 @@
+#columna{
+ margin-top: 100px;
+ padding: 60px;
+
+
+}
+#subtitulo1{
+	font-family: Helvetica;
+	text-align: center;
+	height: 40px;
+	font-size: 20px;
+	color: #000;
+
+}
+form{
+	padding: 60px;
+	max-width: 400px;
+	background-color:#e7e7e7;
+	margin: 0 auto;
+}
+.otro{
+	margin-bottom: 15px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	color:#F20606;
+}
+.boton{
+	background-color: #3498DB ;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	color: white;
+
+}
+
+
+
+
+
+select{
+
+	cursor:pointer;
+	margin-bottom: 15px;
+	width: 60%;
+	padding: 8px;
+	box-sizing: border-box;
+	color:#ffffff;
+	background-color:gray;
+
+}
+select>option{
+	cursor:pointer;
+	margin-bottom: 15px;
+	width: 60%;
+	padding: 8px;
+	box-sizing: border-box;
+	color:#ffffff;
+	background-color:gray;
+
+
+
+
