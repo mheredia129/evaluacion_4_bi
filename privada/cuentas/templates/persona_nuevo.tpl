@@ -12,7 +12,7 @@
    
             <p><h1>REGISTRAR PERSONA</h1></p>   
             <p>NOMBRES<input type="text" name="nombres" placeholder="nombres" size="15" class="otro"onkeyup="this.value=this.value.toUpperCase()" >(*)</p>          
-            <p>APELLIDO PATERNO<input type="text"size="15" name="apellido_paterno"  class="otro" onkeyup="this.value=this.value.toUpperCase()">(*)</p>              
+            <p>APELLIDO PATERNOO<input type="text"size="15" name="apellido_paterno"  class="otro" onkeyup="this.value=this.value.toUpperCase()">(*)</p>              
             <p>APELLIDO MATERNO<input type="text"size="15" name="apellido_materno"  class="otro" onkeyup="this.value=this.value.toUpperCase()">(*)</p>              
             <p>NUMERO DE CELULAR<input type="text" size="15"name="numero_de_celular"  class="otro" onkeyup="this.value=this.value.toUpperCase()">(*)</p>            
             <p>CI<br><input type="text" name="ci" size="15" class="otro"></p>
